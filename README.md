@@ -5,7 +5,7 @@
   <img src="./image/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hien's Portfolio</b></h3>
+  <h3><b>Bim online class training</b></h3>
 
 </div>
 
