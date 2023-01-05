@@ -69,14 +69,14 @@ const speakers = [
     imgFeture: 'https://userphotos2.teacheron.com/1502885-07363.jpg',
     description: 'I am Mansi Pupneja well experienced with the Design and teaching industry . All geared up to share my knowledge with you.',
   },
-]
+];
 
 const speakersList = document.querySelector('.speakers');
 
 speakers.forEach((item) => {
   const speaker = document.createElement('li');
   const {
-    name, title, imgFeture, description
+    name, title, imgFeture, description,
   } = item;
   speaker.classList.add('speaker-item');
   const htmlTemplate = `
