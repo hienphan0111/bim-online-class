@@ -16,8 +16,7 @@ html {
   list-style: none;
 }
 
-.hidden
-{
+.hidden {
   display: none;
   visibility: hidden;
 }
@@ -53,7 +52,6 @@ html {
   position: fixed;
   background-color: rgba(242, 74, 74, 0.428);
   backdrop-filter: blur(8px);
-  position: fixed;
   height: 100vh;
   width: 100vw;
   z-index: 3;
@@ -83,7 +81,7 @@ html {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
-  border-bottom: 1px solid
+  border-bottom: 1px solid;
 }
 
 .menu-i > a {
@@ -135,7 +133,6 @@ h1 {
   color: var(--primary-color-2);
   font-size: 40px;
   font-weight: 900;
-  font-style: bold;
   margin: 10px auto;
   text-transform: uppercase;
   z-index: 3;
@@ -164,7 +161,7 @@ h1 {
 }
 
 .pr-overlay {
-  background: linear-gradient(45deg , #040404 10%,transparent 11%, transparent 89% , #040404 90%),linear-gradient(135deg , #040404 10%,transparent 11%, transparent 89% , #040404 90%),radial-gradient(circle, transparent 25%, #232323  26%),linear-gradient(45deg, transparent 46%, #040404 47%, #040404 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #040404 47%, #040404 52%, transparent 53%);
+  background: linear-gradient(45deg, #040404 10%, transparent 11%, transparent 89%, #040404 90%),linear-gradient(135deg , #040404 10%,transparent 11%, transparent 89%, #040404 90%), radial-gradient(circle, transparent 25%, #232323  26%), linear-gradient(45deg, transparent 46%, #040404 47%, #040404 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #040404 47%, #040404 52%, transparent 53%);
   background-size: 3em 3em;
   background-color: #232323;
   opacity: 1;
@@ -221,7 +218,7 @@ h1 {
 
 .item-detail:hover {
   border: 2px solid #fff;
-  box-shadow: rgba(241, 241, 241, 0.24) 0px 3px 8px;
+  box-shadow: rgba(241, 241, 241, 0.24) 0 3px 8px;
 }
 
 .register {
@@ -269,13 +266,14 @@ h1 {
 .figure {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .pattern {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
-  background-image:  linear-gradient(135deg, #000000 25%, transparent 25%), linear-gradient(225deg, #000000 25%, transparent 25%), linear-gradient(45deg, #000000 25%, transparent 25%), linear-gradient(315deg, #000000 25%, #ffffff 25%);
-  background-position:  10px 0, 10px 0, 0 0, 0 0;
+  background-image:  linear-gradient(135deg, #000 25%, transparent 25%), linear-gradient(225deg, #000 25%, transparent 25%), linear-gradient(45deg, #000 25%, transparent 25%), linear-gradient(315deg, #000 25%, #fff 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 10px 10px;
   background-repeat: repeat;
   position: absolute;
@@ -284,10 +282,6 @@ h1 {
   z-index: -1;
   top: -15px;
   left: 0;
-}
-
-.figure {
-  position: relative;
 }
 
 .figure img {
@@ -388,6 +382,7 @@ h1 {
 .course-item {
   position: relative;
 }
+
 .overlay {
   background: var(--primary-color-2);
   opacity: 0.5;
@@ -400,13 +395,14 @@ h1 {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   position: absolute;
   text-align: center;
   height: 100%;
   width: 100%;
   z-index: 2;
 }
+
 .course-h {
   font-size: 30px;
   font-weight: 700;
@@ -415,6 +411,7 @@ h1 {
 .course-description {
   line-height: 26px;
 }
+
 .course-item img {
   display: block;
   width: 100%;
@@ -441,6 +438,7 @@ h1 {
   list-style: none;
   justify-content: center;
 }
+
 .partner-logo ul li img {
   margin: 10px;
   height: 24px;
@@ -455,7 +453,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  
+
   .hamberger {
     visibility: hidden;
   }
@@ -472,6 +470,10 @@ footer {
     display: flex;
   }
 
+  .menu > li {
+    padding: 0 20px;
+  }
+
   .nav-user > ul > li {
     padding: 5px 10px;
     color: #fff;
@@ -486,7 +488,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 1rem 5rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
   }
 
   .logo {
@@ -497,10 +499,6 @@ footer {
   .menu {
     display: flex;
     justify-content: space-around;
-  }
-
-  .menu > li {
-    padding: 0 20px;
   }
 
   .menu > li > a {
