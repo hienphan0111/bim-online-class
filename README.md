@@ -26,7 +26,11 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
--
+- [🔭 Future Features](#🔭-future-features)
+- [🤝 Contributing](#🤝-contributing)
+- [🙏 Acknowledgments](#🙏-acknowledgments)
+- [📝 License](#📝-license)
+
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -41,6 +45,8 @@ This website will give students book the bim course online.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+To see the demo version, you can <a href="https://hienphan0111.github.io/bim-online-class/"> Click here </a>
 
 <!-- GETTING STARTED -->
 
@@ -50,41 +56,27 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone https://github.com/tresorsawasawa/MyPortfolio.git
 ```
---->
+3. To access cloned directory run:
+```bash
+cd MyPortfolio
+```
+3. Open it with the live server
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
+> To install linters and other project's dependencies run:
+```bash
+npm install
 ```
---->
 
 ### Usage
 
@@ -145,7 +137,7 @@ Example:
 - [ ] **Join**
 - [ ] **Teacher**
 - [ ] **News**
-- [ ] **CC Champain**
+- [ ] **BIM event**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +155,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+I would like to thank <a href="https://www.behance.net/adagio07">Cindy Shin</a> the author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +164,7 @@ I would like to thank Microverse
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
+And also is <a href="https://creativecommons.org/licenses/">Creative Commons License </a>
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
