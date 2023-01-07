@@ -144,7 +144,7 @@ h1 {
   font-size: 14px;
   line-height: 26px;
   margin: 15px;
-  padding:15px;
+  padding: 15px;
   z-index: 5;
 }
 
@@ -160,12 +160,12 @@ h1 {
   display: flex;
   flex-direction: column;
   background:
-  radial-gradient(rgba(31, 31, 31, 0.768) 15%, transparent 16%) 0 0,
-  radial-gradient(rgba(20, 20, 20, 0.819) 15%, transparent 16%) 8px 8px,
-  radial-gradient(rgba(16, 15, 15, 0.142) 15%, transparent 20%) 0 1px,
-  radial-gradient(rgba(15, 14, 14, 0.135) 15%, transparent 20%) 8px 9px;
-  background-color:#1f1f1f;
-  background-size:16px 16px;
+    radial-gradient(rgba(31, 31, 31, 0.768) 15%, transparent 16%) 0 0,
+    radial-gradient(rgba(20, 20, 20, 0.819) 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(16, 15, 15, 0.142) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(15, 14, 14, 0.135) 15%, transparent 20%) 8px 9px;
+  background-color: #1f1f1f;
+  background-size: 16px 16px;
 }
 
 .pr-overlay {
@@ -272,12 +272,10 @@ h1 {
   grid-template-columns: 1fr 2fr;
   margin: 20px 0;
   align-items: center;
-  /* justify-content: space-around; */
 }
 
 .figure {
   display: flex;
-  /* justify-content: center; */
   position: relative;
 }
 
@@ -377,6 +375,10 @@ h1 {
   width: 20px;
 }
 
+footer > div > p {
+  font-size: 12px;
+}
+
 .emphasic p {
   margin: 0 30px;
 }
@@ -468,10 +470,6 @@ footer {
   margin: 20px 40px;
 }
 
-footer > div > p {
-  font-size: 12px;
-}
-
 @media only screen and (min-width: 768px) {
   .hamberger {
     visibility: hidden;
@@ -521,7 +519,6 @@ footer > div > p {
     display: flex;
     justify-content: space-around;
     font-weight: 400;
-    /* margin-right: -14rem; */
   }
 
   .main-nav {
@@ -588,7 +585,7 @@ footer > div > p {
     justify-content: center;
     margin: 0 auto;
     padding-top: 30px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
   }
 
   .dk-register {
