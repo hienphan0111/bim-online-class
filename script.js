@@ -104,7 +104,7 @@ if (parseInt(w, 10) > 768) {
       if (mobileState >= speakers.length) {
         more.classList.add('hidden');
       }
-      for (let i = mobileState - 2; i < mobileState; i++) {
+      for (let i = mobileState - 2; i < mobileState; i += 1) {
         renderSpeaker(speakers[i]);
       }
     }

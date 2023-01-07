@@ -557,9 +557,11 @@ footer {
     margin: 0;
     max-width: 550px;
   }
+  
   .sub-header {
     font-size: 38px;
   }
+
   .description-h {
     max-width: 480px;
     margin: 15px 0;
