@@ -57,18 +57,6 @@ const speakers = [
     imgFeture: 'https://userphotos2.teacheron.com/1509264-23354.jpg',
     description: 'Training provided Online or offline, will be starting with the Basic to advance level with hand written Notes and Every Lecture Video Recording will be provided which will help the student\'s in future for any Reference.',
   },
-  // {
-  //   name: 'Masood Rana',
-  //   title: 'AutoCAD 2D/3D Architecture, Structure and Plumbing',
-  //   imgFeture: 'https://userphotos2.teacheron.com/1506455-44218.jpg',
-  //   description: 'I have the ability to grow with a job, handle responsibility and build positive relationships with work colleagues and clients at all levels.',
-  // },
-  // {
-  //   name: 'Mansi',
-  //   title: 'Interior designing, Revit Architecture',
-  //   imgFeture: 'https://userphotos2.teacheron.com/1502885-07363.jpg',
-  //   description: 'I am Mansi Pupneja well experienced with the Design and teaching industry . All geared up to share my knowledge with you.',
-  // },
 ];
 
 const speakersList = document.querySelector('.speakers');
@@ -78,28 +66,28 @@ let mobileState = 0;
 
 const renderSpeaker = (item) => {
   const speaker = document.createElement('li');
-    const {
-      name, title, imgFeture, description,
-    } = item;
-    speaker.classList.add('speaker-item');
-    const htmlTemplate = `
-      <div class="figure">
-        <div class="fg">
-          <div class="pattern"></div>
-          <img src=${imgFeture} alt="figture image" class="fig-speaker">
-        </div>
+  const {
+    name, title, imgFeture, description,
+  } = item;
+  speaker.classList.add('speaker-item');
+  const htmlTemplate = `
+    <div class="figure">
+      <div class="fg">
+        <div class="pattern"></div>
+        <img src=${imgFeture} alt="figture image" class="fig-speaker">
       </div>
-      <div class="meta">
-          <h4 class="name">${name}</h4>
-          <p class="title">${title}</p>
-          <hr>
-          <p class="speaker-description">${description}</p>
-      </div>`;
-    speaker.innerHTML = htmlTemplate;
-    speakersList.appendChild(speaker);
+    </div>
+    <div class="meta">
+        <h4 class="name">${name}</h4>
+        <p class="title">${title}</p>
+        <hr>
+        <p class="speaker-description">${description}</p>
+    </div>`;
+  speaker.innerHTML = htmlTemplate;
+  speakersList.appendChild(speaker);
 };
 
-if(parseInt(w) > 768) {
+if (parseInt(w, 10) > 768) {
   more.classList.add('hidden');
   speakers.forEach((item) => {
     renderSpeaker(item);
@@ -107,16 +95,16 @@ if(parseInt(w) > 768) {
 } else {
   more.classList.remove('hidden');
   mobileState = 2;
-  for(let i = 0; i < mobileState; i++) {
+  for (let i = 0; i < mobileState; i += 1) {
     renderSpeaker(speakers[i]);
   }
   more.addEventListener('click', () => {
-    if(mobileState < speakers.length) {
+    if (mobileState < speakers.length) {
       mobileState += 2;
-      if(mobileState >= speakers.length) {
+      if (mobileState >= speakers.length) {
         more.classList.add('hidden');
       }
-      for(let i = mobileState - 2; i < mobileState; i++) {
+      for (let i = mobileState - 2; i < mobileState; i++) {
         renderSpeaker(speakers[i]);
       }
     }
