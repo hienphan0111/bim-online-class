@@ -583,9 +583,8 @@ footer {
 
   .pr-items {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
-    margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 20px;
   }
@@ -608,7 +607,7 @@ footer {
   .item-detail {
     display: flex;
     flex-direction: column;
-    max-width: 15vw;
+    max-width: 13vw;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
@@ -618,6 +617,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
+  }
+
+  .figure {
+    justify-content: center;
   }
 
   .more {
@@ -640,6 +643,7 @@ footer {
 
   footer {
     margin: 3rem 11rem;
+    justify-content: center;
     gap: 30px;
   }
 }
