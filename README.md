@@ -63,11 +63,11 @@ To get a local copy up and running, follow these steps.
 
 1. Download the **Zip** file or clone the repo with:
 ```bash
-git clone https://github.com/tresorsawasawa/MyPortfolio.git
+git clone https://github.com/hienphan0111/bim-online-class.git
 ```
 3. To access cloned directory run:
 ```bash
-cd MyPortfolio
+cd bim-online-class
 ```
 3. Open it with the live server
 
@@ -122,7 +122,7 @@ Example:
 
 
 - GitHub: [@hienphan0111](https://github.com/hienphan0111)
-- Twitter: [@hienphan0111](https://twitter.com/twitterhandle)
+- Twitter: [@hienphan0111](https://twitter.com/hienphan0111)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hien-phan-61097b256/)
 
 
@@ -165,6 +165,5 @@ I would like to thank <a href="https://www.behance.net/adagio07">Cindy Shin</a> 
 
 This project is [MIT](./MIT.md) licensed.
 And also is <a href="https://creativecommons.org/licenses/">Creative Commons License </a>
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
