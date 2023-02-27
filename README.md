@@ -163,7 +163,7 @@ I would like to thank <a href="https://www.behance.net/adagio07">Cindy Shin</a> 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [GNU v3](./LICENSE.md) licensed.
 And also is <a href="https://creativecommons.org/licenses/">Creative Commons License </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
